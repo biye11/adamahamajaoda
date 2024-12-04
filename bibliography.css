@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+head{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+main{
+    padding: 20px;
+}
+#biblography{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.entry{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: rgb(148, 148, 232);
+}
+h2{
+    margin: 0;
+}
+@media(max-width:600px){
+    #bibliography{
+        flex-direction: column;
+    }
+}
+p{
+    color: #333;
+}
+#infor{
+    text-decoration: none;
+}
